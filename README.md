@@ -1,4 +1,4 @@
-# a-cb
+# a-callback
 
 > A utility to convert node callbacks to promise
 
@@ -31,7 +31,7 @@ Using manual resolver:
 
 ```ts
 import util from 'util';
-import {fromCallback} from 'a-cb';
+import {fromCallback} from 'a-callback';
 // "email-templates" doesn't expose prototypes for promisification
 const emailTemplates = util.promisify(require('email-templates'));
 const templatesDir = path.join(__dirname, 'templates');
