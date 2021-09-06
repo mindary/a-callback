@@ -1,6 +1,6 @@
 {
   "name": "a-callback",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An utility to convert node callbacks to promise",
   "author": "ty <towyuan@outlook.com>",
   "license": "MIT",
@@ -34,8 +34,7 @@
     "preunit": "npm run build",
     "unit": "lb-mocha --allow-console-logs \"dist/__tests__/unit/**/*.js\""
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@loopback/build": "^7.0.0",
     "@loopback/eslint-config": "^11.0.0",
